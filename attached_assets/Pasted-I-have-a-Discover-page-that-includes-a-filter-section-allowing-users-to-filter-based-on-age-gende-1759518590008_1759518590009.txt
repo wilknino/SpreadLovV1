@@ -1,0 +1,49 @@
+I have a "Discover" page that includes a filter section allowing users to filter based on age, gender, and location. Currently, the filter is presented as a sidebar, but it is not functioning well and does not provide the best user experience. I would like the filter section to be implemented as a popup modal instead of the sidebar. When the filter icon is clicked, the filter should open in a clean, modern-looking popup. The popup should contain the following features:
+
+Requirements:
+
+Popup Design and Layout:
+
+The filter should open in a centered popup, overlaying the page content.
+
+The popup should be easily dismissible (using a close button or clicking outside the popup).
+
+The design should be modern, clean, and user-friendly, with a smooth animation effect when opening and closing.
+
+The popup should contain the following sections:
+
+Age Range Filter: A slider allowing users to choose an age range (18-80 years).
+
+Gender Preference Filter: A radio button selection (All Genders, Male, Female).
+
+Location Filter (if applicable): Add an input field or select dropdown for location, depending on your system's needs.
+
+Responsiveness:
+
+The design should be fully responsive for all screen sizes, including mobile and desktop.
+
+Ensure that the popup does not overflow on smaller screens and remains easy to interact with.
+
+On mobile screens, ensure that the popup is touch-friendly and easy to close or adjust the filters.
+
+UI Improvements:
+
+The layout should have ample padding, clear borders, and well-defined sections.
+
+Use modern UI components, such as material design buttons, sliders, and checkboxes.
+
+Ensure the background behind the popup is slightly dimmed to focus attention on the filter options.
+
+Functionality:
+
+The popup should be opened only when the filter icon is clicked, and it should close when clicking on the close button or outside the popup.
+
+Apply proper validations, such as ensuring all filters are clear when the user opens the filter again or resets the filter options.
+
+Visual Enhancements:
+
+The popup should have a smooth animation when opening and closing, making it feel modern and polished.
+
+Use icons or labels where appropriate (e.g., for age and gender).
+
+Ensure the popup is not overly large or small, balancing space for ease of use and a sleek design.
